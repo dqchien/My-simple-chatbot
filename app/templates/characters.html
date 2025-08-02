@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Harry Potter Characters</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    h1 { color: #5A2D82; }
+    .character { padding: 0.5rem; border-bottom: 1px solid #ccc; }
+    .house { font-style: italic; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Harry Potter Characters</h1>
+  {% for char in characters %}
+    <div class="character">
+      <strong>{{ char.name }}</strong>
+      <div class="house">{{ char.house or "No House" }}</div>
+    </div>
+  {% endfor %}
+</body>
+</html>
