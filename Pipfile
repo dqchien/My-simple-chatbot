@@ -6,10 +6,10 @@ name = "pypi"
 [packages]
 flask = "*"
 requests = "*"
-openai
-streamlit
-load_dotenv
-PyPDF2
+openai = "*"
+streamlit = "*"
+python-dotenv = "*"
+PyPDF2 = "*"
 
 [dev-packages]
 
