@@ -204,7 +204,7 @@ def main():
             st.markdown(f"Tone giọng tại hiện tại: {selected_tone}")
 
         st.markdown("---")
-        st.markdown("🎭 Made by [MinhQuang](https://minhquangquang.dev)")
+        st.markdown("🎭 Made by [ThaoHien](https://thaohien.dev)")
 
     # Hiển thị lịch sử trò chuyện trong st.session_state.chat_history với st.markdown
     for i, (user_msg, ai_msg) in enumerate(st.session_state.chat_history):
