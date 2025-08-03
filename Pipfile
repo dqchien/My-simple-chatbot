@@ -11,3 +11,7 @@ requests = "*"
 
 [requires]
 python_version = "3.13"
+openai
+streamlit
+load_dotenv
+PyPDF2
